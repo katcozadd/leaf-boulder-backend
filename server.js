@@ -4,7 +4,7 @@ const path       = require('path');
 const bodyParser = require('body-parser');
 const sgMail     = require('@sendgrid/mail');
 const cors       = require('cors')
-require('dotenv').config();
+require('dotenv').config(); 
 
 app.use(cors());
 app.use(bodyParser.json());
